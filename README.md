@@ -50,7 +50,6 @@ php artisan migrate
 
 php artisan serve
 npm run dev
----
 
 Sistem real-time menggunakan broadcasting untuk menyinkronkan perubahan dokumen secara langsung antar pengguna. Setiap perubahan akan langsung ditampilkan ke semua user yang membuka dokumen yang sama.
 
