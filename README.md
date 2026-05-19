@@ -34,7 +34,7 @@ This application allows multiple users to create, edit, and collaborate on docum
 git clone https://github.com/your-username/Real-Time-Collaborative-Document-Editor.git
 cd Real-Time-Collaborative-Document-Editor
 
-### 2. Install dependencies
-```bash
+
+2. Install dependencies
 composer install
 npm install
