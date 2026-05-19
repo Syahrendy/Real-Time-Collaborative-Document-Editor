@@ -34,13 +34,19 @@ This application allows multiple users to create, edit, and collaborate on docum
 git clone https://github.com/your-username/Real-Time-Collaborative-Document-Editor.git
 cd Real-Time-Collaborative-Document-Editor
 
+
+
 2. Install dependencies
 composer install
 npm install
 
+
+
 3. Setup environment
 cp .env.example .env
 php artisan key:generate
+
+
 
 4. Configure database
 Edit .env file:
@@ -48,12 +54,18 @@ DB_DATABASE=your_database_name
 DB_USERNAME=root
 DB_PASSWORD=
 
+
+
 5. Run migrations
 php artisan migrate
+
+
 
 6. Run development server
 php artisan serve
 npm run dev
+
+
 
 Sistem Real-Time
 
