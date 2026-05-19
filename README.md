@@ -31,3 +31,15 @@ Teknologi yang digunakan:
 ```bash
 git clone https://github.com/username/Real-Time-Collaborative-Document-Editor.git
 cd Real-Time-Collaborative-Document-Editor
+
+composer install
+npm install
+
+DB_DATABASE=google_docs
+DB_USERNAME=root
+DB_PASSWORD=
+
+php artisan migrate
+
+php artisan serve
+npm run dev
