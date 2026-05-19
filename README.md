@@ -26,29 +26,31 @@ Clone repository:
 git clone https://github.com/username/Real-Time-Collaborative-Document-Editor.git
 cd Real-Time-Collaborative-Document-Editor
 
-Install dependency:
+2. Install dependency:
 
 composer install
 npm install
 
-Setup environment:
+3. Setup environment:
 
 cp .env.example .env
 php artisan key:generate
 
-Konfigurasi database:
+4. Konfigurasi database:
 
 DB_DATABASE=google_docs
 DB_USERNAME=root
 DB_PASSWORD=
 
-Jalankan migration:
+5. Jalankan migration:
 
 php artisan migrate
 
-Jalankan server:
+6. Jalankan server:
 
 php artisan serve
 npm run dev
+---
 
 Sistem real-time menggunakan broadcasting untuk menyinkronkan perubahan dokumen secara langsung antar pengguna. Setiap perubahan akan langsung ditampilkan ke semua user yang membuka dokumen yang sama.
+
