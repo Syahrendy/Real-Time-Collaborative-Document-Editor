@@ -1,40 +1,39 @@
 # Real-Time Collaborative Document Editor
 
-A real-time collaborative document editor built with Laravel.  
-This application allows multiple users to create, edit, and collaborate on documents simultaneously with live updates and revision tracking.
+Aplikasi editor dokumen kolaboratif real-time yang dibangun menggunakan Laravel.  
+Aplikasi ini memungkinkan beberapa pengguna untuk membuat, mengedit, dan berkolaborasi pada dokumen secara bersamaan dengan pembaruan langsung (real-time) dan riwayat revisi.
 
 ---
 
-## 🚀 Features
+## 🚀 Fitur
 
-- User authentication system
-- Create and manage documents
-- Real-time collaborative editing
-- Auto-save changes
-- Revision history tracking
-- Document ownership system
-- Secure access control (auth middleware)
-
----
-
-## 🛠️ Tech Stack
-
-- Backend: Laravel
-- Database: MySQL
-- Frontend: Blade / Vite
-- Real-time: Laravel Reverb / WebSockets (if used)
-- Authentication: Laravel Breeze / Sanctum (optional)
+- Sistem autentikasi pengguna
+- Membuat dan mengelola dokumen
+- Editing dokumen secara real-time
+- Auto-save perubahan
+- Riwayat revisi dokumen
+- Sistem kepemilikan dokumen
+- Akses kontrol menggunakan middleware
 
 ---
 
-## 📦 Installation
+## 🛠️ Teknologi yang Digunakan
+
+- Backend: :contentReference[oaicite:0]{index=0}  
+- Database: MySQL  
+- Frontend: Blade / Vite  
+- Real-time: Laravel Reverb / WebSockets (opsional sesuai implementasi)  
+- Authentication: Laravel Breeze / Sanctum (opsional)
+
+---
+
+## 📦 Instalasi
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/your-username/Real-Time-Collaborative-Document-Editor.git
+git clone https://github.com/username/Real-Time-Collaborative-Document-Editor.git
 cd Real-Time-Collaborative-Document-Editor
 
-
-2. Install dependencies
+2. Install dependency
 composer install
 npm install
