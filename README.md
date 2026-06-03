@@ -21,7 +21,7 @@ Teknologi yang digunakan:
 
 Clone repository:
 ```bash
-git clone https://github.com/username/Real-Time-Collaborative-Document-Editor.git
+git clone https://github.com/Syahrendy/Real-Time-Collaborative-Document-Editor.git
 cd Real-Time-Collaborative-Document-Editor
 
 2. Install dependency:
