@@ -1,15 +1,13 @@
 # Real-Time Collaborative Document Editor
 
 Aplikasi editor dokumen kolaboratif real-time yang dibangun menggunakan :contentReference[oaicite:0]{index=0}.  
-Aplikasi ini memungkinkan beberapa pengguna untuk membuat, mengedit, dan berkolaborasi pada dokumen secara bersamaan dengan pembaruan langsung (real-time) serta riwayat revisi.
+Aplikasi ini memungkinkan beberapa pengguna untuk membuat, mengedit, dan berkolaborasi pada dokumen secara bersamaan dengan pembaruan langsung (real-time).
 
 Aplikasi ini memiliki fitur utama seperti:
 - Sistem autentikasi pengguna  
 - Membuat dan mengelola dokumen  
 - Editing dokumen secara real-time  
-- Auto-save perubahan  
-- Riwayat revisi dokumen  
-- Sistem kepemilikan dokumen  
+- Auto-save perubahan    
 - Akses kontrol menggunakan middleware  
 
 Teknologi yang digunakan:
@@ -49,6 +47,7 @@ php artisan migrate
 6. Jalankan server:
 
 php artisan serve
+php artisan reverb:start
 npm run dev
 
 Sistem real-time menggunakan broadcasting untuk menyinkronkan perubahan dokumen secara langsung antar pengguna. Setiap perubahan akan langsung ditampilkan ke semua user yang membuka dokumen yang sama.
